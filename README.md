@@ -1,3 +1,5 @@
+# online book web
+Online Book Web is a Django-based web application that allows users to browse books by category, view details, and access purchase links. Admins can manage book listings and categories through a secure backend.
 #  Technologies Used
 Frontend: HTML, CSS, Bootstrap
 Backend: Python, Django
