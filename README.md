@@ -4,7 +4,7 @@
 
 ---
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - **Frontend**: HTML, CSS, Bootstrap  
 - **Backend**: Python, Django  
@@ -13,7 +13,7 @@
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **Homepage**  
   Displays all book categories and featured books.
@@ -50,14 +50,15 @@
    ```bash
    git clone https://github.com/yashpatil-25/Online-Book-web.git
    cd Online-Book-web
-#cd Onlinebookweb
-#python -m venv env
-#source env/bin/activate  # On Windows: env\Scripts\activate
-#pip install -r requirements.txt
-#python manage.py makemigrations
-#python manage.py migrate
-#python manage.py createsuperuser
-#python manage.py runserver
+    cd Onlinebookweb
+    python -m venv env
+    source env/bin/activate  
+    On Windows: env\Scripts\activate
+    pip install -r requirements.txt
+    python manage.py makemigrations
+    python manage.py migrate
+    python manage.py createsuperuser
+    python manage.py runserver
 
 
 # Sequence diagram
