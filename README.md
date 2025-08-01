@@ -1,3 +1,9 @@
+#  Technologies Used
+Frontend: HTML, CSS, Bootstrap
+Backend: Python, Django
+Database: SQLite
+Version Control: Git
+
 # Online Book Web – Key Features 
 Homepage: Shows all book categories and featured books.
 
