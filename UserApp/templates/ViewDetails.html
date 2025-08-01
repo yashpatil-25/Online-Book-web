@@ -1,0 +1,33 @@
+{%extends "homepage.html"%}
+
+{%block content%}
+<centrer>
+
+    
+<h1>Book Details</h1>
+<form method="post">
+    {%csrf_token%}
+<table class="table" style="align-items: center;">
+    <tr><td>Book Id</td><td>{{book.id}}
+        <input type="hidden" name="book_id" value="{{book.id}}"/>
+    </td></tr>
+    <tr><td>Book Name</td><td>{{book.book_name}}</td></tr>
+    <tr><td>Author Name</td><td>{{book.author}}</td></tr>
+    <tr><td>Book Description</td><td>{{book.description}}</td></tr>
+    <tr><td>Book Price</td><td>{{book.price}}</td></tr>
+    <tr><td>Image</td><td><img src="{{book.image_url.url}}" class="img-responsive" style="width:220px;height:170px"/> </td></tr>
+    <tr><td>Select Quantity</td><td>
+        <select name="qty" class="form-control" style="width: 100px;">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>  
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </td></tr>
+    <tr><td><button type="submit" class="btn btn-danger" value="Add To Cart">Add To Cart</button></td></tr>
+
+</table>
+</form>
+</centrer>
+{%endblock%}

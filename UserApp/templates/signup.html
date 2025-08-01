@@ -1,0 +1,23 @@
+{%extends "homepage.html"%}
+
+{%block content%}
+<centrer>
+<h1>Sign up</h1>
+<form method="post">
+    {%csrf_token%}
+<table class="table" style="align-items: center;">
+    <tr><td>Login Id</td><td>
+        <input type="text" name="uname" class="form-control"/>
+    </td></tr>
+   
+    <tr><td>Password</td><td>
+            <input type="text" name="pwd" class="form-control"/>
+    </td></tr>
+<tr><td><button class="btn btn-danger" type="submit" value="Sign up">Sign up</button></td></td>
+    
+    </td></tr>
+
+</table>
+</form>
+</centrer>
+{%endblock%}
