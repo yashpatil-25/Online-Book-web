@@ -50,6 +50,15 @@
    ```bash
    git clone https://github.com/yashpatil-25/Online-Book-web.git
    cd Online-Book-web
+#cd Onlinebookweb
+#python -m venv env
+#source env/bin/activate  # On Windows: env\Scripts\activate
+#pip install -r requirements.txt
+#python manage.py makemigrations
+#python manage.py migrate
+#python manage.py createsuperuser
+#python manage.py runserver
+
 
 # Sequence diagram
 <img width="843" height="1105" alt="Screenshot 2025-08-01 180821" src="https://github.com/user-attachments/assets/881d996b-66f9-4263-99a7-1cbc2e37c661" />
