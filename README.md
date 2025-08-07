@@ -1,4 +1,4 @@
-# 📚 Online Book Web
+# Online Book Web
 
 **Online Book Web** is a Django-powered web application that allows users to browse books by category, view detailed information, and access external purchase links. It also features a secure admin panel for managing book listings and categories.
 
@@ -44,21 +44,21 @@
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yashpatil-25/Online-Book-web.git
-   cd Online-Book-web
-    cd Onlinebookweb
-    python -m venv env
-    source env/bin/activate  
-    On Windows: env\Scripts\activate
-    pip install -r requirements.txt
-    python manage.py makemigrations
-    python manage.py migrate
-    python manage.py createsuperuser
-    python manage.py runserver
+   "git clone https://github.com/yashpatil-25/Online-Book-web.git"
+   "cd Online-Book-web"
+    "cd Onlinebookweb"
+    "python -m venv env"
+    "source env/bin/activate"  
+    "On Windows: env\Scripts\activate"
+    "pip install -r requirements.txt"
+    "python manage.py makemigrations"
+    "python manage.py migrate"
+    "python manage.py createsuperuser"
+    "python manage.py runserver"
 
 
 # Sequence diagram
