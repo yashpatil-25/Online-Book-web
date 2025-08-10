@@ -60,7 +60,9 @@
    "python manage.py createsuperuser"
    "python manage.py runserver"
 
-# Sequence diagram : https://sequencediagram.org/
+# Sequence diagram : https://1drv.ms/u/c/89fdedab6673b6fe/EdEqSKhQBFlOhlCrNT2eDm8BPG7M3GW4Oz9SxAhIF3Jpqw?e=YxsotY
 # Sequence diagram
-<img width="569" height="734" alt="book" src="https://github.com/user-attachments/assets/7957ae22-72ae-4204-8ebc-b5f9e7bcfa0c" />
+<img width="569" height="734" alt="book" src="https://github.com/user-attachments/assets/a2fdbff8-38c2-40b8-a57b-71a625dd9bea" />
+
+
 
