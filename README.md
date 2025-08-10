@@ -60,7 +60,7 @@
    "python manage.py createsuperuser"
    "python manage.py runserver"
 
-## Sequence diagram : https://surli.cc/trbtgq
+# Sequence diagram : https://surli.cc/trbtgq
 
 # Sequence diagram
 <img width="569" height="734" alt="book" src="https://github.com/user-attachments/assets/a2fdbff8-38c2-40b8-a57b-71a625dd9bea" />
